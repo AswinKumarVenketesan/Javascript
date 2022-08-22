@@ -5,7 +5,7 @@ let userDetails = {
     place: "Neyveli"
 
 }
-
+    
 let required = prompt('Which detail is required','');
 
 alert(userDetails[required])
