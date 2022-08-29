@@ -1,3 +1,23 @@
+//callback
+
+// function getUsers(callback) {
+// 	setTimeout(() => {
+// 	  callback([
+// 		{ username: 'aswin', email: 'aswin@gmail.com' },
+// 		{ username: 'kumar', email: 'kuar@gmail.com' },
+// 	  ]);
+// 	}, 1000);
+//   }
+  
+//   function findUser(username, callback) {
+// 	getUsers((users) => {
+// 	  const user = users.find((user) => user.username == username);
+// 	  callback(user);
+// 	});
+//   }
+  
+//   findUser('aswin', console.log);
+
 let success = true;
 
 function getUsers() {
